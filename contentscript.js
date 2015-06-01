@@ -6,6 +6,7 @@ $(document).keydown(function(e) {
        main()
    }
    down[e.keyCode] = false;
+   down[17] = false;
 })
 
 
